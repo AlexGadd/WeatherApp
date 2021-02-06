@@ -20,6 +20,7 @@ function toggle(){
 
 }
 
+//Trying to get it to check the temperature stored and replace the HTML with the stored values
 function checkTemp(){
     document.getElementById("TempOrHumidity").innerHTML = temp + "°C";
     document.getElementById("TempOrHumidity").className = "temp";
